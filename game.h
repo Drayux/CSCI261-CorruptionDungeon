@@ -1,9 +1,3 @@
-/*
- * This program is licensed under the unofficial "don't steal my shit license."
- * Pretty much, don't use my shit without me saying so,
- * because that's not cool.
- */
-
 /* 
  * File:   game.h
  * Author: Drayux
@@ -21,5 +15,4 @@ using namespace sf;
 
 void game(dungeon&, RenderWindow&);
 
-#endif 
-
+#endif

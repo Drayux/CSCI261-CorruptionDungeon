@@ -1,9 +1,3 @@
-/*
- * This program is licensed under the unofficial "don't steal my shit license."
- * Pretty much, don't use my shit without me saying so,
- * because that's not cool.
- */
-
 /* 
  * File:   util.h
  * Author: Drayux
@@ -19,4 +13,3 @@ vector<bool> variedRand(vector<float>);
 direction getOppositeDirection(direction);
 
 #endif
-

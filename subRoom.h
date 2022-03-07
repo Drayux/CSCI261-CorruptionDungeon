@@ -1,9 +1,3 @@
-/*
- * This program is licensed under the unofficial "don't steal my shit license."
- * Pretty much, don't use my shit without me saying so,
- * because that's not cool.
- */
-
 /* 
  * File:   subRoom.h
  * Author: Drayux
@@ -21,15 +15,14 @@
 class subRoom : public room {
 public:
     subRoom(int, int, roomType, int, int);
-    
+
     int getMainRoomX();
     int getMainRoomY();
-    
+
 private:
     int mainRoomX;
     int mainRoomY;
-    
+
 };
 
 #endif /* SUBROOM_H */
-

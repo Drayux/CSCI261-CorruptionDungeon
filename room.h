@@ -1,9 +1,3 @@
-/*
- * This program is licensed under the unofficial "don't steal my shit license."
- * Pretty much, don't use my shit without me saying so,
- * because that's not cool.
- */
-
 /* 
  * File:   room.h
  * Author: Drayux
@@ -31,7 +25,7 @@ public:
     //CONSTRUCTORS
     room(int, int);
     room(int, int, roomType);
-    
+
     //FUNCTIONS
     void draw(RenderWindow&, float, float);
     bool shouldBeRendered(RenderWindow&, float, float);
@@ -44,37 +38,37 @@ public:
     bool unstable();
     //bool mainRoom();
     //bool exists();
-    
+
     room& getMainRoom();
     long getSubRoomsSize();
     room& getSubRoom(int);
-    
+
     vector<room> generate(direction);
-    
+
     int getTextureSize();
     int getRenderPositionX(float, int);
     int getRenderPositionY(float, int);
     Color getColor();
-    
+
     //    Setters
     void setColor(Color);
     void setMainRoom(room*);
-    
+
 private:
     //CONSTRUCTORS
     room(int, int, roomType, subRoomType);
-    
+
     //VARIABLES
     int posX;             //Location X within the room array
     int posY;             //Location Y within the room array
-    
+
     int minSizeX;
     int minSizeY;
     int sizeX;            //How many array spaces wide the room can be
     int sizeY;            //How many array spaces tall the room can be
 
     room* mainRoom;       //Pointer to the address of the main room
-    
+
     roomType type;        //The type of room this is
     subRoomType subType;  //The subtype of room this is
     wallType walls[4];      //TODO IMPLEMENT THIS
@@ -83,15 +77,14 @@ private:
     //bool roomExists;      //If the room does not "exist" it can be overwritten
 
     vector<room> subRooms;
-    
+
     Texture texture;      //The location of the texture this room uses
     int textureSize;      //How many pixels wide and long one section of room is
     Color color;          //The background color of the room
-    
+
     //FUNCTIONS
     void build();
-    
+
 };
 
 #endif
-
