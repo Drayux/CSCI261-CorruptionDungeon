@@ -1,0 +1,3 @@
+Z:/CSCI261/Fall2018/SFML_Template/cmake-build-debug/CMakeFiles/edit_cache.dir
+Z:/CSCI261/Fall2018/SFML_Template/cmake-build-debug/CMakeFiles/SFML_Template.dir
+Z:/CSCI261/Fall2018/SFML_Template/cmake-build-debug/CMakeFiles/rebuild_cache.dir
