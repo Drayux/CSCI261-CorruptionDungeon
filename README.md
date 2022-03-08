@@ -28,3 +28,13 @@ Ultimately, I dream of this game not only procedurally generating unique and div
 
 < TODO >  
 This project was built as my final project for CSCI261: Programming Concepts. The goal of this project was to be very open-ended, so the specifics of the game are all of my own design.  
+<br>
+
+## LINKEDIN DESCRIPTION
+
+An inquisitive exploration of procedural generation through a top-down dungeon game. This project was my first attempt at building a simple video game, and was built to its current state within a short time, as my "open-ended" final project for CSCI261 (Programming Concepts.) Further, this project was a great opportunity for me to explore a more creative side of programming, which involves constructing an interesting experience for an end user.  
+  
+At the time of writing this project, my skill as a programmer sat well behind my ambitions, and I was quickly inspired to expand upon this project with numerous other features. Most notably, I wanted to recreate the project in 3D. Doing so, led me to traverse the rabbit hole of 3D graphics and I quickly found a deep appreciation for the mathematics that makes it possible.  
+  
+Ultimately, my dream for this game would not only generates unique and diverse dungeons to explore, but also feature uncanny degrees of world corruption. Additionally, I would like to experiment with using procedural generation for puzzles within the game, possibly as a means of keeping combat dynamic and interesting to the player, perhaps offering elements of real-time strategy games, or some form of magic mechanic that can be paused at anytime.  
+<br>
